@@ -1,6 +1,7 @@
 # cis6930fa24 -- Assignment0 
 
 Name: Rishika Sharma
+
 UFID: 32772571
 
 # Assignment Description 
@@ -12,6 +13,7 @@ pipenv install -e
 
 ## How to run
 pipenv run python main.py --page # (insert any integer from 1 to 1008 instead of #)
+
 pipenv run python main.py --file # (insert any string file location instead of #)
 
 ## How to test
