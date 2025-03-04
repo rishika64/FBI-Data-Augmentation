@@ -1,23 +1,26 @@
-# cis6930fa24 -- Assignment0 
+# Data Augmentation (FBI Wanted List)
 
-Name: Rishika Sharma
-
-UFID: 32772571
-
-# Assignment Description 
+## Description 
 
 This assignment focuses on extracting and formatting data from the FBI Wanted API into a JSON format, using a thorn character (`þ`) as field separator. The task requires creating a Python package that retrieves information (title, subjects, and field offices) based on a given page number from the API, or alternatively, reading from a local JSON file. The program should handle command-line arguments for either the API or file input and print the output to standard out. It also includes creating test cases for key functionalities such as data downloading, title extraction, subjects extraction, and formatting. 
 
-# How to install
-pipenv install -e 
+## How to install
+```sh
+pipenv install -e
+```
 
 ## How to run
+```sh
 pipenv run python main.py --page # (insert any integer from 1 to 1008 instead of #)
-
+```
+```sh
 pipenv run python main.py --file # (insert any string file location instead of #)
+```
 
 ## How to test
+```sh
 pipenv run python -m pytest -v
+```
 
 ## Functions
 
